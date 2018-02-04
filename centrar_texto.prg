@@ -1,5 +1,5 @@
 PROCEDURE centrar_texto
-    PARAMETER tnFila, tcTexto, tcColor
+    PARAMETERS tnFila, tcTexto, tcColor
 
     LOCAL lnColumna
 

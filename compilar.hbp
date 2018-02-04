@@ -1,6 +1,19 @@
+#
+# compilar.hbp
+#
+
+# -static|-shared link with static/shared libs
 -static
 
-main.prg
+# -o<outname> output file name
+-ocontabilidad
+
+# source files
 centrar_texto.prg
 dibujar_caja_centrada.prg
+dibujar_caja_menu.prg
+dibujar_fondo.prg
+principal.prg
 src_iniciar_sesion.prg
+src_menu_principal.prg
+src_menu_sistema.prg
