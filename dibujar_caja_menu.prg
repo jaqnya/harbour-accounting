@@ -16,12 +16,12 @@ PROCEDURE dibujar_caja_menu
 
     DO CASE
     CASE tcMenu == 'principal'
-        @ 05, 06, 07, 35 BOX lcCajaSimple COLOR 'GR+/B'    // 1. SISTEMA DE CONTABILIDAD
-        @ 11, 06, 13, 35 BOX lcCajaSimple COLOR 'GR+/B'    // 2. MODULO DE EMPRESAS
-        @ 17, 06, 19, 35 BOX lcCajaSimple COLOR 'GR+/B'    // 3. RE-ORGANIZACION
-        @ 05, 47, 07, 75 BOX lcCajaSimple COLOR 'GR+/B'    // 4. COPIA DE SEGURIDAD
-        @ 11, 47, 13, 75 BOX lcCajaSimple COLOR 'GR+/B'    // 5. RECUPERACION DE DATOS
-        @ 17, 47, 19, 75 BOX lcCajaSimple COLOR 'GR+/B'    // 0. SALIR DE ESTE MENU
+        @ 05, 05, 07, 34 BOX lcCajaSimple COLOR 'GR+/B'    // 1. SISTEMA DE CONTABILIDAD
+        @ 11, 05, 13, 34 BOX lcCajaSimple COLOR 'GR+/B'    // 2. MODULO DE EMPRESAS
+        @ 17, 05, 19, 34 BOX lcCajaSimple COLOR 'GR+/B'    // 3. RE-ORGANIZACION
+        @ 05, 46, 07, 74 BOX lcCajaSimple COLOR 'GR+/B'    // 4. COPIA DE SEGURIDAD
+        @ 11, 46, 13, 74 BOX lcCajaSimple COLOR 'GR+/B'    // 5. RECUPERACION DE DATOS
+        @ 17, 46, 19, 74 BOX lcCajaSimple COLOR 'GR+/B'    // 0. SALIR DE ESTE MENU
     CASE tcMenu == 'sistema'
         @ 05, 09, 07, 30 BOX lcCajaSimple COLOR 'GR+/B'    // 1. MANTENIMIENTO
         @ 11, 09, 13, 30 BOX lcCajaSimple COLOR 'GR+/B'    // 2. CONSULTAS
