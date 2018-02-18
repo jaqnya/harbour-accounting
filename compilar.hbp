@@ -15,5 +15,6 @@ dibujar_caja_menu.prg
 dibujar_fondo.prg
 principal.prg
 src_iniciar_sesion.prg
+src_menu_modulo.prg
 src_menu_principal.prg
 src_menu_sistema.prg

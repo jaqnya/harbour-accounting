@@ -28,6 +28,10 @@ PROCEDURE dibujar_caja_menu
         @ 17, 09, 19, 30 BOX lcCajaSimple COLOR 'GR+/B'    // 3. LISTADOS
         @ 05, 50, 07, 71 BOX lcCajaSimple COLOR 'GR+/B'    // 4. OTRAS OPCIONES
         @ 11, 50, 13, 71 BOX lcCajaSimple COLOR 'GR+/B'    // 0. MENU PRINCIPAL
+    CASE tcMenu == 'modulo'
+        @ 07, 24, 16, 54 BOX CHR(219) COLOR 'W/N'
+        @ 08, 25, 15, 53 BOX lcCajaSimple COLOR 'W+/BG'
+        centrar_texto(07, 'MODULOS DEL SISTEMA', 'N/W')
     OTHERWISE
         QOUT("dibujar_caja_menu: No se pudo dibujar ninguna caja.")
     ENDCASE
